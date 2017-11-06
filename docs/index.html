@@ -3,6 +3,8 @@
 <html>
   <head>
     <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    
   </head>
   <body>
     <a-scene>
@@ -14,7 +16,8 @@
       </a-assets>
       
       <a-camera position="0 0 5">
-        <a-cursor color="white"> </a-cursor>
+        <a-entity cursor
+        > </a-entity>
       </a-camera>
       
       <a-sphere position="0 1.5 -4" radius="0.16" src="#ballTexture">
